@@ -33,12 +33,17 @@ body {
   font-size: 38px;
 }
 
-button.list-group-item {
+.list-group-item {
   background-color: #6b0990;
-  color: white;
+  color: white !important;
   border-style: dotted;
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Shadows Into Light Two', cursive;
   font-size: 32px;
+}
+
+.list-group-item:hover {
+  
+  color: black !important;
 }
 
 .collapse {
