@@ -15,6 +15,36 @@ body {
   -webkit-box-shadow: inset 0 0 10px #000000;
   box-shadow: inset 0 0 10px #000000;
 }
+
+#carlName {
+  margin-left: 40px;
+  margin-top: 100px;
+  font-size: 100px;
+  color: white;
+  text-shadow: 
+    1px 0px 1px #6b0990, 0px 1px 1px #000, 
+    2px 1px 1px #6b0990, 1px 2px 1px #000,
+    3px 2px 1px #6b0990, 2px 3px 1px #000,
+    4px 3px 1px #6b0990, 3px 4px 1px #000,
+    5px 4px 1px #6b0990, 4px 5px 1px #000,
+    6px 5px 1px #6b0990, 5px 6px 1px #000,
+    7px 6px 1px #6b0990;
+  font-family: "Ubuntu Condensed";
+}
+
+#jumboQuote {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 40px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 100px;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 15px;
+  background-color: rgba(2, 2, 2, .7);
+
+}
+
 .panel {
   background-color: #222;
 }
@@ -65,4 +95,5 @@ li {
 .footer {
   background-color: black;
   color: #00abff;
+  font-size: 20px;
 }
