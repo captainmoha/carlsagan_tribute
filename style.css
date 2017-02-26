@@ -56,3 +56,8 @@ button.list-group-item {
 li {
   margin-bottom: 10px;
 }
+
+.footer {
+  background-color: black;
+  color: #00abff;
+}
