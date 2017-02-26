@@ -21,6 +21,6 @@ $(document).ready(function() {
 				break;
 			}
 		}
-		tweet.attr('href', 'https://twitter.com/intent/tweet?hashtags=javascript%2Ccarlsagan&text=Carl+Sagan+once+said ' + imgURL + '&via=captainmoha');
+		tweet.attr('href', 'https://twitter.com/intent/tweet?hashtags=javascript%2CCarlSagan&text=Carl+Sagan+once+said ' + imgURL + ' - For more visit: https://goo.gl/AYzmJG' + '&via=captainmoha');
 	});
 });

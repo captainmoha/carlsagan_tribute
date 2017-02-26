@@ -52,11 +52,11 @@ body {
 .panel-body {
   background-color: #6b0990;
 }
-.panel>.panel-heading {
-  background-color: #222;
-  color: white;
-  font-family: 'Russo One', sans-serif;;
-  font-size: 38px;
+.myHeads {
+  background-color: #222 !important;
+  color: white !important;
+  font-family: 'Russo One', sans-serif !important;
+  font-size: 38px !important;
 
 }
 .panel>.panel-heading>.panel-title {
@@ -84,10 +84,18 @@ body {
 #timeline {
   background-color: #222;
   border-style: none;
+  margin-top: 64px;
   font-family: 'Ubuntu Condensed', sans-serif; 
   font-size: 32px;
 }
-
+#media {
+  margin-bottom: 64px;
+  margin-top: 64px;
+}
+#wikiLink {
+  min-width: 100%;
+  font-size: 32px;
+}
 li {
   margin-bottom: 10px;
 }
